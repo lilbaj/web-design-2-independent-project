@@ -93,7 +93,7 @@ aqua: #49bbc2 */
 }
 
 .menu > div {
-  background: rgba(016, 023, 060, 0.75);
+  background: rgba(016, 023, 060, 0.85);
   border-radius: 100%;
   width: 200vw;
   height: 200vh;
@@ -120,14 +120,18 @@ aqua: #49bbc2 */
 
 .menu-wrap li {
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
 .menu-wrap a {
   text-decoration: none;
   color: #fff;
-  transition: color 0.5s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-wrap a:hover {
+  color: #ed7f99;
 }
 
 .nav-social {

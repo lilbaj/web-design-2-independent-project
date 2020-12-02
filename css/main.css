@@ -93,7 +93,8 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  padding: .5em .75em;
+  font-weight: 500;
+  padding: .5em 1em;
   border: 2px solid #fff;
   border-radius: 10px;
   margin: .75rem;
@@ -101,7 +102,8 @@ header {
 }
 
 .banner-content a:hover {
-  color: #f5bf5d;
+  color: #10173c;
+  background-color: #f5bf5d;
   border-color: #f5bf5d;
 }
 

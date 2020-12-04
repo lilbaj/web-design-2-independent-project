@@ -134,6 +134,8 @@ aqua: #49bbc2 */
   color: #ed7f99;
 }
 
+.menu-wrap a:focus
+
 .nav-social {
   display: flex;
   align-items: center;

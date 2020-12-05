@@ -139,3 +139,13 @@ aqua: #49bbc2 */
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .toggler {
+    margin: 1rem 3rem 1.5rem 1rem;
+  }
+
+  .hamburger {
+    margin: 1rem 3rem 1.5rem 1rem;
+  }

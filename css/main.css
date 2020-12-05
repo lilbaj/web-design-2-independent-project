@@ -120,7 +120,8 @@ header {
   text-align: left;
 }
 
-.banner-content a {
+.banner-content a ,
+.product a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -132,7 +133,8 @@ header {
   transition: all .3s ease-in-out;
 }
 
-.banner-content a:hover {
+.banner-content a:hover ,
+.product a:hover {
   color: #10173c;
   background-color: #f5bf5d;
   border-color: #f5bf5d;
@@ -208,7 +210,7 @@ footer li {
 }
 
 .footer-links a:hover {
-  color: #49bbc2;
+  color: #10173c;
 }
 
 .footer-social-links {
@@ -222,7 +224,7 @@ footer li {
 .intro {
  position: relative;
  margin: 1rem;
- height: 75vh;
+ height: 65vh;
  overflow: hidden;
 }
 
@@ -250,4 +252,53 @@ footer li {
 
 .product {
   margin: 1rem;
+}
+
+.product h2 {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+}
+
+.product a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #10173c;
+  border-color: #10173c;
+  margin: .5rem 0 2rem;
+}
+
+.product a:hover {
+  background-color: #10173c;
+  border-color: #10173c;
+  color: #fff;
+}
+
+/* portfolio page */
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.port-piece img {
+  margin: 1.5rem 0 3rem;
+}
+
+.port-piece p {
+  margin-top: 0;
 }

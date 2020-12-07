@@ -308,6 +308,37 @@ footer li {
 
 @media only screen and (min-width: 25em) {
 
+  .banner-content a {
+    margin: 2rem .5rem 0;
+  }
+
+  .banner-content {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  footer {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  p {
+    margin-bottom: 1.4rem;
+  }
+
   .logo {
     width: 152px;
     margin-left: 3rem;
@@ -319,15 +350,7 @@ footer li {
   }
 
   .banner-content {
-    padding: 3rem;
-    text-align: left;
-  }
-
-  .banner-content a ,
-  .product a {
-    text-align: center;
-    margin: 1.25rem 1.25rem 1.25rem 0;
-    width: 33.333%;
+    padding: 4rem;
   }
 
   .about {
@@ -336,6 +359,11 @@ footer li {
 
   .artist-img {
     margin-bottom: 2rem;
+  }
+
+  .banner-content a {
+    text-align: left;
+    margin-top: 1rem;
   }
 
   .contact-info ul {
@@ -364,21 +392,6 @@ footer li {
 
 }
 
-@media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  p {
-    margin-bottom: 1.4rem;
-  }
-
-
-
-}
-
 @media only screen and (min-width: 60em) {
 
   html {
@@ -388,6 +401,56 @@ footer li {
 
   p {
     margin-bottom: 1.5rem;
+  }
+
+  .logo {
+    width: 160px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+
+  .banner-content {
+    max-width: 36em;
+    padding: 4rem 0 0;
+    text-align: left;
+    left: 15%;
+  }
+
+  .about {
+    display: grid;
+    grid-template-areas:
+    "artist-img   meet-artist"
+    "contact-info contact-info";
+    gap: 1.5rem;
+    margin: 5rem;
+  }
+
+  .meet-the-artist {
+    grid-area: meet-artist;
+  }
+
+  .meet-the-artist h1 ,
+  .meet-the-artist p {
+    margin: 0;
+  }
+
+  .artist-img {
+    grid-area: artist-img;
+    align-self: center;
+    margin: 0;
+  }
+
+  .contact-info {
+    grid-area: contact-info;
+  }
+
+  .contact-info h3 {
+    margin: 0;
+  }
+
+  .contact-info p ,
+  .contact-info ul {
+    margin-bottom: 0;
   }
 
 }

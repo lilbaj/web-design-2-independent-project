@@ -111,11 +111,6 @@ header {
 
 .banner-content h2 {
   font-size: 2.5rem;
-  text-align: left;
-}
-
-.banner-content p {
-  text-align: left;
 }
 
 .banner-content a ,
@@ -151,14 +146,19 @@ header {
   font-size: 2rem;
   font-weight: 500;
   margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: center;
 }
 
 .contact-info ul {
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-info li {
@@ -198,6 +198,10 @@ footer li {
   list-style: none;
   text-align: center;
   padding: .5rem;
+}
+
+.footer-links {
+  margin-top: 2rem;
 }
 
 .footer-links a {
@@ -314,7 +318,6 @@ footer li {
 
   .banner-content {
     padding: 2rem;
-    text-align: center;
   }
 
   .about {
@@ -323,7 +326,7 @@ footer li {
   }
 
   footer {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
 }
@@ -346,19 +349,27 @@ footer li {
   }
 
   .banner {
-    height: 55vh;
+    height: 65vh;
   }
 
   .banner-content {
     padding: 4rem;
+    top: 25%;
+    left: 25%;
+    transform: translate(-18%, -15%);
   }
 
   .about {
-    margin: 6rem 3rem 1.5rem;
+    margin: 1.5rem 3rem;
+  }
+
+  .meet-the-artist {
+    align-self: center;
   }
 
   .artist-img {
     margin-bottom: 2rem;
+    align-self: center;
   }
 
   .banner-content a {
@@ -375,8 +386,7 @@ footer li {
 
   .contact-info li {
     display: block;
-    width: 50%;
-    overflow: visible;
+    place-self: center;
   }
 
   .logo-footer {
@@ -415,10 +425,10 @@ footer li {
   }
 
   .banner-content {
-    max-width: 36em;
     padding: 4rem 0 0;
-    text-align: left;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .about {
@@ -427,7 +437,7 @@ footer li {
     "artist-img   meet-artist"
     "contact-info contact-info";
     gap: 1.5rem;
-    margin: 5rem;
+    margin: 1rem 5rem 5rem;
   }
 
   .meet-the-artist {
@@ -441,12 +451,12 @@ footer li {
 
   .artist-img {
     grid-area: artist-img;
-    align-self: center;
     margin: 0;
   }
 
   .contact-info {
     grid-area: contact-info;
+    margin-top: 2rem;
   }
 
   .contact-info h3 {
@@ -459,7 +469,8 @@ footer li {
   }
 
   .contact-info p {
-    max-width: 45rem;
+    max-width: 36rem;
+    margin: 0 auto;
   }
 
   .logo-footer {
@@ -485,9 +496,20 @@ footer li {
     margin-bottom: 1.5rem;
   }
 
+  .social-icon {
+    width: 65px;
+    padding: .5rem;
+  }
+
+  .logo {
+    width: 170px;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+  }
+
   .about {
     grid-row-gap: 4rem;
-    margin: 7rem;
+    margin: 2rem 7rem 7rem;
   }
 
   .meet-the-artist {
@@ -500,6 +522,18 @@ footer li {
 
   .contact-info {
     align-self: center;
+    margin-top: 0;
+  }
+
+  .contact-info ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    place-items: center;
+  }
+
+  .contact-info li {
+    padding: 0;
   }
 
 

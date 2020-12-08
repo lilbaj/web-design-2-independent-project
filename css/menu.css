@@ -163,3 +163,15 @@ aqua: #49bbc2 */
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  .toggler {
+    margin: 1.5rem 7rem 1.5rem 1rem;
+  }
+
+  .hamburger {
+    margin: 1.5rem 7rem 1.5rem 1rem;
+  }
+
+}

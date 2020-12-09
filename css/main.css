@@ -227,7 +227,6 @@ footer li {
  position: relative;
  margin: 1rem;
  height: 45vh;
- overflow: hidden;
 }
 
 .intro:before {
@@ -257,7 +256,7 @@ footer li {
 
 .product h2 {
   font-size: 2rem;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .product a {
@@ -297,7 +296,7 @@ footer li {
 }
 
 .port-piece img {
-  margin: 1.5rem 0 3rem;
+  margin: 1.5rem auto 3rem;
 }
 
 .port-piece h3{
@@ -308,6 +307,7 @@ footer li {
 .port-piece p {
   margin-top: 0;
 }
+
 
 @media only screen and (min-width: 25em) {
 
@@ -442,6 +442,23 @@ footer li {
     max-width: 15em;
   }
 
+  .port-section {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .port-section h2 {
+    margin-top: 0;
+  }
+
+  .piece-info {
+    max-width: 35em;
+  }
+
+  .piece-img {
+    width: 85%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -539,6 +556,33 @@ footer li {
     padding-left: 3rem;
   }
 
+  .illust {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 1fr 1fr;
+  }
+
+  .illust h2 {
+    grid-column: 1 / 3;
+  }
+
+  .illust .port-piece {
+    display: contents;
+  }
+
+  .camp-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .camp-img img {
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+  }
+
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -602,6 +646,10 @@ footer li {
 
   .img-sizer {
     width: 40%;
+  }
+
+  .illust .piece-img {
+    width: 65%;
   }
 
 }

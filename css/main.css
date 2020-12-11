@@ -555,7 +555,9 @@ footer li {
   .illust {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25% 1fr 1fr;
+    grid-template-rows: 15% 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   .illust h2 {
@@ -576,6 +578,10 @@ footer li {
     height: 100%;
     width: 50%;
     padding: 1rem;
+  }
+
+  .piece-img {
+    margin-bottom: 0;
   }
 
 }

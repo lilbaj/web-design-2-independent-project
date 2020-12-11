@@ -580,8 +580,8 @@ footer li {
     padding: 1rem;
   }
 
-  .piece-img {
-    margin-bottom: 0;
+  .port-piece img {
+    margin: 0;
   }
 
 }

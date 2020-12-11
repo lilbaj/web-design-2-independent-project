@@ -555,7 +555,7 @@ footer li {
   .illust {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15% 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr;
     grid-gap: 1rem;
     margin-bottom: 2rem;
   }
@@ -651,6 +651,10 @@ footer li {
 
   .illust .piece-img {
     width: 65%;
+  }
+
+  .illust {
+    grid-template-rows: 1% 1fr 1fr;
   }
 
 }
